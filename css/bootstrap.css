@@ -542,6 +542,30 @@ progress {
   opacity: 1;
 }
 
+/*Alterando o Scrool do navegador ;) */
+
+.scroller::-webkit-scrollbar{
+  width: 15px;
+}
+
+
+
+.scroller::-webkit-scrollbar-track{
+  background: #00213a;
+}
+
+.scroller::-webkit-scrollbar-thumb{
+  background: #e3f3ff;
+}
+
+.scroller::-webkit-scrollbar-thumb{
+  border-radius: 10px;
+}
+
+.scroller::-webkit-scrollbar-thumb{
+  max-height: 100px;
+}
+
 
 /*Fim das minhas linhas de código css*/
 .lead {
